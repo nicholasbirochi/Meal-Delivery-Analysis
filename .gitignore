@@ -1,0 +1,4 @@
+# Data files are not versioned
+data/
+__MACOSX/
+._*
