@@ -1,7 +1,6 @@
 # Meal Delivery Orders Analysis — Pandas & NumPy
 
-This project applies **Pandas** and **NumPy** to analyze real meal delivery order data.
-You will work with two datasets (orders and menu) to extract business insights through EDA, feature engineering, missing data handling, aggregations, time analysis, dataset merge, filters, and KPIs.
+A study notebook that combines meal orders with a menu table to explore quantities, revenue, categories and monthly patterns. The analysis uses Pandas and NumPy, with the calculations and intermediate checks kept together in `main.ipynb`.
 
 ## Project goals
 
@@ -57,7 +56,7 @@ These are **metadata artifacts** and should be ignored.
 ```text
    .
    ├── main.ipynb
-   ├── README.md
+   ├── readme.md
    └── data/
        ├── pedidos.csv
        ├── cardapio.csv
@@ -91,6 +90,8 @@ These are **metadata artifacts** and should be ignored.
   - (Optional) percentiles for unit price and quantity
 
 ## License
+
+Original code and documentation are covered by [MIT](license). Source datasets and third-party materials keep their own terms. The existing Rocketseat copyright notice is preserved in LICENSE.
 
 MIT License
 
