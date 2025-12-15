@@ -54,7 +54,7 @@ These are **metadata artifacts** and should be ignored.
 
 3) Ensure your project structure matches the following (or adjust the paths inside the notebook):
 
-´´´text
+```text
    .
    ├── main.ipynb
    ├── README.md
@@ -64,7 +64,7 @@ These are **metadata artifacts** and should be ignored.
        └── __MACOSX/ (optional; ignore)
            ├── ._pedidos.csv
            └── ._cardapio.csv
-´´´
+```
 
 4) Run the notebook cells in order.
 
