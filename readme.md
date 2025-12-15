@@ -14,7 +14,7 @@ A study notebook that combines meal orders with a menu table to explore quantiti
 
 ## Datasets
 
-This project expects two CSV files inside the `data/` folder:
+This project expects two CSV files inside the `data/` folder. Data is not included; put the files in `data/`.
 
 - `data/pedidos.csv`
   - `Data` (order date)
@@ -34,8 +34,7 @@ If you extracted the datasets on macOS, your zip may also contain:
 - `data/__MACOSX/._pedidos.csv`
 - `data/__MACOSX/._cardapio.csv`
 
-These are **metadata artifacts** and should be ignored.
-(Recommended: add `__MACOSX/` and `._*` to your `.gitignore`.)
+These are **metadata artifacts** and should be ignored. The `.gitignore` already excludes `__MACOSX/` and `._*`.
 
 ## Tech Stack
 
